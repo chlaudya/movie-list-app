@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> should render component successfully 1`] = `
+<Fragment>
+  <Modal
+    centered={true}
+    className="Modal"
+    confirmLoading={false}
+    footer={
+      Array [
+        <Button
+          id="BtnDetail"
+          type="primary"
+        >
+          Detail Movie
+        </Button>,
+      ]
+    }
+    okType="primary"
+    title="Test Title"
+    visible={true}
+    width="50%"
+  >
+    <img
+      src="http://test-images"
+      width="50%"
+    />
+  </Modal>
+</Fragment>
+`;

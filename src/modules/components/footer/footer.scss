@@ -1,0 +1,101 @@
+.footer {
+  border-top: 4px #c38346 solid;
+  justify-content: center;
+  background-color: #432a1c;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  margin-bottom: -40px;
+  padding: 3rem 2rem;
+
+  &-left {
+    width: 60%;
+    height: auto;
+    margin: 3rem 9rem;
+    text-align: left;
+    .title {
+      color: #f2dfd0;
+      margin-top: -29px;
+      font-weight: bold;
+    }
+    .description {
+      color: #f2dfd0;
+    }
+    .images {
+      display: flex;
+      position: relative;
+      top: -8px;
+      right: 5px;
+      height: 100px;
+      width: 120px;
+      height: auto;
+    }
+  }
+
+  &-middle {
+    width: 20%;
+    height: auto;
+    position: relative;
+    display: flex;
+    font-size: 18px;
+    margin: 30px;
+    .list {
+      list-style: none;
+      text-align: left;
+    }
+    .h5 {
+      color: white;
+      background-color: white;
+      background: white;
+    }
+  }
+
+  &-right {
+    width: 20%;
+    height: auto;
+    margin: 30px;
+    .title {
+      color: #f2dfd0;
+      font-weight: bold;
+      font-size: 20px;
+      text-align: left;
+    }
+    .store {
+      position: relative;
+      display: flex;
+      width: 80%;
+    }
+    .android {
+      position: relative;
+      width: 165px !important;
+      left: -10px;
+    }
+    .ios {
+      position: relative;
+      width: 147px !important;
+      top: 9px;
+    }
+    .sosmed-list {
+      justify-content: space-between;
+      text-align: left;
+    }
+    .sosmed {
+      color: #f2dfd0;
+      display: inline-block;
+      font-size: 30px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.copyright {
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-top: 5px #c38346 solid;
+  display: inline-block;
+  width: 80%;
+  color: #c38346;
+}
